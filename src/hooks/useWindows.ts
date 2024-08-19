@@ -10,11 +10,11 @@ type WindowsPosition = {
 };
 
 const initialWindows: WindowsPosition[] = [
-  { id: 1, top: 50, left: 50, zIndex: 1, width: 160, height: 80 },
-  { id: 2, top: 50, left: 300, zIndex: 1, width: 160, height: 80 },
-  { id: 3, top: 50, left: 550, zIndex: 1, width: 160, height: 80 },
-  { id: 4, top: 200, left: 50, zIndex: 1, width: 160, height: 80 },
-  { id: 5, top: 200, left: 300, zIndex: 1, width: 160, height: 80 },
+  { id: 1, top: 150, left: 50, zIndex: 1, width: 160, height: 80 },
+  { id: 2, top: 150, left: 300, zIndex: 1, width: 160, height: 80 },
+  { id: 3, top: 150, left: 550, zIndex: 1, width: 160, height: 80 },
+  { id: 4, top: 250, left: 50, zIndex: 1, width: 160, height: 80 },
+  { id: 5, top: 250, left: 300, zIndex: 1, width: 160, height: 80 },
 ];
 
 export const useWindows = () => {

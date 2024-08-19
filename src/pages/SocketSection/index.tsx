@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useTransactions } from "../../hooks/useTransactions";
 
 export const SocketSection = () => {
@@ -5,6 +6,14 @@ export const SocketSection = () => {
     useTransactions();
   return (
     <>
+      <div className="bg-gray-50 p-4">
+        <h1 className="text-3xl font-bold mb-4">Socket section</h1>
+        <Link to="/part1" className="">
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Go to part 1
+          </button>
+        </Link>
+      </div>
       <div className="bg-gray-100 flex flex-row gap-x-4 items-center p-4">
         <button
           className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"

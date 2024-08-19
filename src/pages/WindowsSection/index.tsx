@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useWindows } from "../../hooks/useWindows";
+import { Link } from "react-router-dom";
 
 export const WindowsSection = () => {
   const { windows, moveWindow, resizeWindow, bringToFront, resetWindows } =
@@ -73,6 +74,14 @@ export const WindowsSection = () => {
 
   return (
     <div className="relative w-full h-screen bg-gray-500">
+      <div className="p-4">
+        <h1 className="text-3xl font-bold mb-4">Windows section</h1>
+        <Link to="/part2" className="">
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Go to part 2
+          </button>
+        </Link>
+      </div>
       {windows.map((window) => (
         <div
           key={window.id}

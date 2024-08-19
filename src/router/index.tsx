@@ -9,7 +9,7 @@ import { WindowsSection } from "../pages/WindowsSection";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Navigate to="/part2" replace />,
+    element: <Navigate to="/part1" replace />,
   },
   {
     path: "/part1",
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path: "*",
-    element: <Navigate to="/part2" replace />,
+    element: <Navigate to="/part1" replace />,
   },
 ]);
 
