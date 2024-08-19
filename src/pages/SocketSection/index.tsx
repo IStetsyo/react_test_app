@@ -37,7 +37,7 @@ export const SocketSection = () => {
       <div className="bg-gray-100 p-4">
         <h2 className="text-xl font-bold mb-2">Amount: {transactionSum}</h2>
       </div>
-      <div className="bg-gray-50 overflow-y-auto max-h-[500px]">
+      <div className="bg-gray-50 overflow-y-auto max-h-[350px]">
         <h2 className="text-xl font-bold mb-2 mt-4">All transactions</h2>
         <table className="w-full table-auto">
           <thead>
